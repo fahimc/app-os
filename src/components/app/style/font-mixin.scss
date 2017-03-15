@@ -1,0 +1,8 @@
+@import 'palette';
+
+@function fontcolor($key: 'primary') {
+  @return map-get($font-colors, $key);
+}
+@function bgcolor($key: 'primary') {
+  @return map-get($background-colors, $key);
+}

@@ -1,0 +1,10 @@
+.app-view{
+  width: 100vw;
+  height: 100vh;
+
+  iframe {
+    height : calc(100vh - 20px );
+    width: 100vw;
+  }
+}
+

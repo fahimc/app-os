@@ -1,0 +1,41 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    .carousel {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        div{
+            width: 100vw;
+            height: 100vh;
+            display: block;
+        }
+        ul {
+            font-size: 0;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width:80vw;
+            height: 80vh;
+            margin-top: 10vh;
+            margin-left: 10vw;
+            background-color:#000;
+            li {
+              font-size: 16px;
+                margin: 0;
+                display: inline-block;
+                width: 19vw;
+                height: 19vw;
+                margin-right:1vw;
+                background-color: #f00;
+                margin-bottom: 1vw;
+
+                &:nth-child(4n) {
+                  width:20vw;
+                  margin-right:0;
+                }
+            }
+        }
+    }
+}
